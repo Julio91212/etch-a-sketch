@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 405px;
+    width: 405px;
+    gap: 5px;
+    background-color: black;
+    padding: 5px;
+}
+.grid {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
