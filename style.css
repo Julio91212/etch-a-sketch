@@ -17,3 +17,7 @@ body {
     height: 30px;
     background-color: white;
 }
+button {
+    background-color: rgb(230, 103, 103);
+    color: white;
+}

@@ -24,3 +24,15 @@ function color() {
     });
     });}
     color()
+//create restart button and divs of new grid
+const btn= document.querySelector("button");
+btn.addEventListener( 'click', () => {
+document.querySelectorAll('.grid').forEach(e => e.remove());
+let size= prompt("Enter Grid Size");
+let sizen = parseInt(size);
+sizen = Math.min(100, Math.max(0,sizen));
+console.log(sizen)
+let gridsize = Math.pow(sizen,2)
+for (let i=0; i<gridsize; i++) {
+    grid()};
+});
