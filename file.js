@@ -15,3 +15,12 @@ function grid() {
 for (let i=0; i<256; i++) {
 grid()
 }
+//turn blue when mouseover
+function color() {
+    const divs = document.querySelectorAll("div.grid");
+    divs.forEach((div) => {
+    div.addEventListener("mouseover", () => { 
+    div.setAttribute("style", "background-color:blue;");
+    });
+    });}
+    color()
